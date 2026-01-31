@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+HackOverflow
 
-## Project info
+HackOverflow is a modern web application built with a fast, scalable frontend stack. The project is designed for rapid development, clean UI components, and a smooth developer experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+ Tech Stack
 
-## How can I edit this code?
+This project uses the following technologies:
 
-There are several ways of editing your application.
+Vite – lightning-fast development tooling
 
-**Use Lovable**
+React – component-based UI framework
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+TypeScript – type-safe JavaScript
 
-Changes made via Lovable will be committed automatically to this repo.
+Tailwind CSS – utility-first CSS framework
 
-**Use your preferred IDE**
+shadcn/ui – accessible, reusable UI components
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+ Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+You can run this project locally using your preferred IDE.
 
-Follow these steps:
+Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Make sure you have the following installed:
+
+Node.js (v18+ recommended)
+
+npm
+
+Tip: You can install Node.js using nvm
+
+Installation & Development
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The app will start with hot reloading enabled for instant feedback during development.
 
-**Use GitHub Codespaces**
+🛠 Editing the Code
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can modify the project in multiple ways:
 
-## What technologies are used for this project?
+1. Local Development
 
-This project is built with:
+Edit the source files in your local IDE and push changes to the repository as usual.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. Edit Directly on GitHub
 
-## How can I deploy this project?
+Open any file in the repository
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Click the Edit icon
 
-## Can I connect a custom domain to my Lovable project?
+Commit your changes directly to the repo
 
-Yes, you can!
+3. GitHub Codespaces
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Click Code → Codespaces → New codespace
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Edit files in a cloud-based VS Code environment
+
+Commit and push when done
+
+ Project Structure (Typical)
+src/
+├── components/     # Reusable UI components
+├── pages/          # Page-level components
+├── styles/         # Global styles
+├── lib/            # Utility functions
+└── main.tsx        # App entry point
+
+ Build for Production
+
+To create a production build:
+
+npm run build
+
+
+To preview the production build locally:
+
+npm run preview
+
+ Deployment
+
+The project can be deployed on any modern frontend hosting platform such as:
+
+Vercel
+
+Netlify
+
+Cloudflare Pages
+
+GitHub Pages (with configuration)
+
+Build output will be generated in the dist/ directory
+
